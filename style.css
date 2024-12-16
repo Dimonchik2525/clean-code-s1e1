@@ -168,15 +168,15 @@ button {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+.inp-edit {
     display: none
 }
 
-ul li.editMode input[type="text"] {
+.edit-mode .task {
     display: inline-block;
     width: 224px
 }
 
-ul li.editMode label {
+.edit-mode .main__incomplete-tasks__item__label {
     display: none;
 }
